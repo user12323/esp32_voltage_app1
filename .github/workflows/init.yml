@@ -1,4 +1,6 @@
-name: Init Flutter Project
+
+- name: Create Flutter project
+  run: flutter create --project-name esp32_voltage_app1 .
 
 on:
   workflow_dispatch:
